@@ -1,0 +1,205 @@
+body,
+html {
+    width: 100%;
+    height: 100%;    
+}
+/*=======NAVIGATION=======*/
+.topnav {
+  background: #E3E3E3; 
+}
+.navbar-brand {
+  color: black;
+  font-family: "Muli", sans serif; 
+}
+
+.navbar-right {
+  color: black;
+  font-family: "Muli", sans serif; 
+}
+
+
+/*=======PRESENTATION=======*/
+.jumbotron{
+  background:  url('http://static1.squarespace.com/static/53014c5ce4b0c37a400165ae/t/54f3fc20e4b0df03d1f79928/1425275938231/Desk+-+Coffee+(6).jpg?format=2500w') no-repeat fixed;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	text-align: center;
+  height: 655px;  
+}
+
+.name {
+  position: relative;
+  color: black;
+  font-family: "Montserrat Subrayada", sans serif;
+  padding-top: 100px;
+}
+h2 {
+  font-family: "Muli", sans serif; 
+}
+.intro-social-buttons {
+  padding-top: 2%;
+}
+
+#press {
+  width: 60px;
+  border: solid 3px white;
+  border-radius: 40px;
+  margin-top: 2%;
+  transition: background-color 0.6s, opacity 0.6s, margin-top 1s;
+}
+
+#press:hover {
+  background-color: #5BC2B4;
+  opacity: 0.8;
+  margin-top: 3%;
+  transition: background-color 0.6s, opacity 0.6s, margin-top 1s;
+}
+
+/*======ABOUT=====*/
+
+#presentation {
+    background-color: #10394F;
+    height: 520px;
+    padding-top: 3%;
+}
+.who {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: "Montserrat Subrayada", sans serif;
+  padding-top: 45px;
+  padding-bottom: 5px;
+  
+}
+.how {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  padding-top: 10px;
+  font-family: "Muli", sans serif;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+.cafe {
+ color: white;
+ text-align: center;
+}
+
+.row {
+  padding-top: 10px;
+  
+}
+
+.idea {
+  text-align: center;
+  color: white;
+}
+/*======SERVICES=====*/
+
+#services {
+  height: 450px;
+  background: #A2BAC7;
+  padding-top: 3%;
+}
+.servicios {
+  font-family: "Montserrat Subrayada", sans serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+.design {
+  color: black;
+  font-family: "Muli", sans serif;
+}
+service-list {
+  padding-top: -10px;
+  padding-bottom: 30px;
+}
+
+/*======PORTFOLIO=====*/
+#portfolio {
+  padding-top: 3%;
+}
+.gallery {
+  font-family: "Montserrat Subrayada", sans serif;
+  font-size: 40px;
+  text-align: center;
+}
+.coming {
+  color: #000;
+  font-family: "Muli", sans serif;
+  padding-bottom: 3%;
+}
+
+
+/*======CONTACT======*/
+
+#contacto {
+  background-color: #A2BAC7;
+  height: 420px;
+  padding-top: 5%;
+}
+
+.button {
+  color: #fff;
+  border:solid 2px #fff;
+  border-radius:50%;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  text-align:center;
+  font-size:20px;
+  line-height:48px;
+  transition:all .3s ease-in-out;
+  button:hover {
+    border:solid 2px #fff;
+    color:$fargglad;
+    background: #fff;
+  }
+}
+ .linkedin  {
+   padding-top: 50px;
+   padding-bottom: 20px;
+   padding-left: 30px;
+}
+.twitter  {
+   padding-left: 30px;
+   padding-bottom: 20px;
+}
+.github  {
+   padding-left: 30px;
+}
+  ul{
+    list-style: none;
+  }
+  .mail {
+    text-align: center;
+    padding-left: 20px;
+  }
+.sec-contact .form-control:focus {
+  border-color: #ad0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(173, 0, 0, 0.6);
+}
+
+.sec-contact .btn {
+  background: #000;
+  color: #fff;
+}
+.sec-contact .btn:hover, .sec-contact .btn:focus {
+  background: #ad0000;
+  border-color: #7a0000;
+}
+/*===== FOOTER ======*/
+
+footer {
+  background: #26526A;
+  text-align: center;
+  font-family: "Muli", sans serif;
+  color: white;
+  padding-top: 5px;
+  
+}
